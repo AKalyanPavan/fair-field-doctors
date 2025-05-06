@@ -27,11 +27,11 @@ export default function Homepage() {
 					<div className="text-[#D3AC4A] text-[24px] my-[10px]">
 						Premium Gated Community Crafted for Doctors
 					</div>
-					<div className="text-lg font-light">{description}</div>
+					<div className="text-lg font-light max-sm:h-[170px]">{description}</div>
 					<FormComponent />
 				</div>
-				<div className="max-lg:hidden">
-					<img src={firstSection} className="rounded-[20px] border-solid border-[2px] border-[#37405E] w-[592px]" />
+				<div className="max-lg:hidden w-[592px]">
+					<img src={firstSection} className="rounded-[20px] border-solid border-[2px] border-[#37405E]" />
 					<div className="text-center mt-[20px]">Smart Investment | Prestige Living | Personalized Comfort</div>
 				</div>
 			</div>
