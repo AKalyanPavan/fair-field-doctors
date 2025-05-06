@@ -12,6 +12,9 @@ import phone from '../images/phone.svg';
 import { offers, basicFeatures, premiumAmenities, whatsIncluded, secureYourFuture } from './Variables.js'
 
 export default function Homepage() {
+
+	const description = 'Your Prescription for Secure, High-Return Real Estate in Coimbatore. Strategically located in Ramanathapuram, Coimbatore, Fair Field – Anicham & Magilam is not just land, it\'s legacy.';
+
 	return(
 		<div className="max-w-[1300px] mx-auto sm:px-[50px] px-[20px] font-['Lexend_Deca']">
 			<Header />
@@ -24,9 +27,7 @@ export default function Homepage() {
 					<div className="text-[#D3AC4A] text-[24px] my-[10px]">
 						Premium Gated Community Crafted for Doctors
 					</div>
-					<div className="text-lg font-light">
-						Your Prescription for Secure, High-Return Real Estate in Coimbatore. Strategically located in Ramanathapuram, Coimbatore, Fair Field – Anicham & Magilam is not just land, it's legacy.
-					</div>
+					<div className="text-lg font-light">{description}</div>
 					<FormComponent />
 				</div>
 				<div className="max-lg:hidden">
