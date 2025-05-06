@@ -24,7 +24,7 @@ export default function Homepage() {
 					<div className="text-[#D3AC4A] text-[24px] my-[10px]">
 						Premium Gated Community Crafted for Doctors
 					</div>
-					<div className="text-[18px] font-light">
+					<div className="text-lg font-light">
 						Your Prescription for Secure, High-Return Real Estate in Coimbatore. Strategically located in Ramanathapuram, Coimbatore, Fair Field – Anicham & Magilam is not just land, it's legacy.
 					</div>
 					<FormComponent />
@@ -95,7 +95,7 @@ export default function Homepage() {
 							</div>
 						</div>
 						<a className="w-fit contents" href="tel:+91 7900882288">
-							<div id="callUsNowButton" className="max-lg:mx-auto w-fit call-us-button bg-[#37405E] h-fit flex items-center py-[10px] px-[20px] rounded-[5px] cursor-pointer sm:text-[18px] font-medium">
+							<div id="callUsNowButton" className="max-lg:mx-auto w-fit call-us-button bg-[#37405E] h-fit flex items-center py-[10px] px-[20px] rounded-[5px] cursor-pointer sm:text-lg font-medium">
 								<img src={phone} />
 								<span className="text-[#ffffff] ml-[20px]">
 									Book Now
@@ -121,7 +121,7 @@ export default function Homepage() {
 					))}
 				</div>
 				<a className="w-fit contents" href="tel:+91 7900882288">
-					<div id="callUsNowButton" className="mx-auto w-fit call-us-button bg-[#37405E] h-fit flex items-center py-[10px] px-[20px] rounded-[5px] cursor-pointer sm:text-[18px] font-medium">
+					<div id="callUsNowButton" className="mx-auto w-fit call-us-button bg-[#37405E] h-fit flex items-center py-[10px] px-[20px] rounded-[5px] cursor-pointer sm:text-lg font-medium">
 						<img src={phone} />
 						<span className="text-[#ffffff] ml-[20px]">
 							Book Now
@@ -134,7 +134,7 @@ export default function Homepage() {
 					Fair Field – Where Luxury Meets Smart Investment!
 				</div>
 				<a href="tel:+91 7900882288">
-					<div className="bg-[#37405E] h-fit flex items-center py-[10px] px-[20px] rounded-[5px] cursor-pointer sm:text-[18px] font-medium w-fit mx-auto mt-[20px]">
+					<div className="bg-[#37405E] h-fit flex items-center py-[10px] px-[20px] rounded-[5px] cursor-pointer sm:text-lg font-medium w-fit mx-auto mt-[20px]">
 						<img src={phone} />
 						<span className="text-[#ffffff] ml-[10px]">
 							+91 79 00 88 22 88
