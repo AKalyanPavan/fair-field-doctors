@@ -96,7 +96,7 @@ export default function Homepage() {
 							</div>
 						</div>
 						<a className="w-fit contents" href="tel:+91 7900882288">
-							<div id="callUsNowButton" className="max-lg:mx-auto w-fit call-us-button bg-[#37405E] h-fit flex items-center py-[10px] px-[20px] rounded-[5px] cursor-pointer sm:text-lg font-medium">
+							<div className="max-lg:mx-auto w-fit call-us-button bg-[#37405E] h-fit flex items-center py-[10px] px-[20px] rounded-[5px] cursor-pointer sm:text-lg font-medium">
 								<img src={phone} />
 								<span className="text-[#ffffff] ml-[20px]">
 									Book Now
@@ -122,7 +122,7 @@ export default function Homepage() {
 					))}
 				</div>
 				<a className="w-fit contents" href="tel:+91 7900882288">
-					<div id="callUsNowButton" className="mx-auto w-fit call-us-button bg-[#37405E] h-fit flex items-center py-[10px] px-[20px] rounded-[5px] cursor-pointer sm:text-lg font-medium">
+					<div className="mx-auto w-fit call-us-button bg-[#37405E] h-fit flex items-center py-[10px] px-[20px] rounded-[5px] cursor-pointer sm:text-lg font-medium">
 						<img src={phone} />
 						<span className="text-[#ffffff] ml-[20px]">
 							Book Now
